@@ -23,7 +23,7 @@
 hs_err_pid*
 
 *.class
-out/
+.out/
 .idea/
 .idea_modules/
 *.iml
