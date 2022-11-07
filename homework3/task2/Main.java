@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите длинны сторон треугольника");
+        System.out.println("Р’РІРµРґРёС‚Рµ РґР»РёРЅС‹ СЃС‚РѕСЂРѕРЅ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°");
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
         int b = s.nextInt();
@@ -12,13 +12,13 @@ public class Main {
         if (a < b + c ){
             if (b < a + c){
                 if (c < b + a){
-                    System.out.println("Треугольник существует");
+                    System.out.println("РўСЂРµСѓРіРѕР»СЊРЅРёРє СЃСѓС‰РµСЃС‚РІСѓРµС‚");
                 }
-                else System.out.println("Треугольник не существует");
+                else System.out.println("РўСЂРµСѓРіРѕР»СЊРЅРёРє РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
             }
-            else System.out.println("Треугольник не существует");
+            else System.out.println("РўСЂРµСѓРіРѕР»СЊРЅРёРє РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
         }
-        else System.out.println("Треугольник не существует");
+        else System.out.println("РўСЂРµСѓРіРѕР»СЊРЅРёРє РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
 
     }
 }
